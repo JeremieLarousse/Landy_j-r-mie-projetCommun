@@ -1,36 +1,44 @@
-RING LITE10 SET -
-
-PLUGGER STUDIO
-
-A quoi sert cette lampe ? Le principal intrt de la lumire annulaire est de supprimer les ombres et de rpartir la lumire sur le sujet uniformment. En raison de sa capacit rpartir la lumire de manire uniforme, le RingLite10 est idal pour les gros plans photographiques ou de vido.
-
-
-29€
-///////////////////////////////////////////
-KEY LIGHT AIR - 
-
-ELGATO
-
-Elgato Key Light Air, clairage de studio 1400 lumens compatible rseau WLAN, pour les productions vido. 
-
-Avec le Key Light Air d'Elgato et ses 80 LED OSRAM haut de gamme, profitez d'un magnifique clairage, pour un rendu professionnel vos productions destines notamment aux applications type streaming. Les LEDs qui quipent ce produit sont techniquement de qualit industrielle et se caractrisent par une constance dans l'intensit, sans dgagement de chaleur. Pilotable distance, ajustez prcisment l'clairage, des tons chauds au tons froids (2900 7000 K). La qualit de ce panneau lumineux permets une utilisation longue dure sans fatigue oculaire.
-
-139€
-
-/////////////////////////////////////////////////////////////////////////////////////////////
-JORISUN Boule Disco Lumières Disco 2 Pack
-
-JORISUN
-
-L'éclairage de scène fournit un éclairage romantique, vous permettant d'avoir facilement l'ambiance. Il peut apporter une beauté onirique à votre chambre, adapté aux discothèques, salles de danse, KTV, bars, scènes, clubs, fêtes, etc.
-
-28.95€
-
-/////////////////////////////////////////////////////////////////////////////////////
-BETOPPER Lumières Disco Lumières DJ
-
-BETOPPER
-
-Lumières de scène Lumière de danse à têtes mobiles Mini Spider Lumière haute énergie activée par le son LED RGBW DMX512 Super Cool pour Party Club Bars
-
-89.99€
+material = [{
+        "nom" : "RING LITE10 SET",
+        "reference" : "PLUGGER STUDIO",
+        "prix" : "29€",
+        "image" : "../img/eclairage/ringLite.jpg"
+    },
+    {
+        "nom" : "KEY LIGHT AIR",
+        "reference" : "ELGATO",
+        "prix" : "139€",
+        "image" : "../img/eclairage/keyLightAir.jpg"
+    },
+    {
+        "nom" : "JORISUN Boule Disco Lumières Disco 2 Pack",
+        "reference" : "JORISUN",
+        "prix" : "28.95€",
+        "image" : "../img/eclairage/jorisun.jpg"
+    },
+    {
+        "nom" : "BETOPPER Lumières Disco Lumières DJ",
+        "reference" : "BETOPPER",
+        "prix" : "89.99€",
+        "image" : "../img/eclairage/betopper.jpg"
+    },
+    {
+        "nom" : "Mini Spot à LED Mini Spot Encastré",
+        "reference" : "Yuncoo",
+        "prix" : "37,99€",
+        "image" : "../img/eclairage/yuncoo.jpg"
+    },
+    {
+        "nom" : "Boule Disco de Commande Vocale,7 Couleurs",
+        "reference" : "Gobikey",
+        "prix" : "15.99€",
+        "image" : "../img/eclairage/gobikey.jpg"
+    },
+    {
+        "nom" : "UKing Lyre LED 50W Tête Mobile DMX 512",
+        "reference" : "UKing",
+        "prix" : "129.99€",
+        "image" : "../img/eclairage/uking.jpg"
+    }
+]
+ 
