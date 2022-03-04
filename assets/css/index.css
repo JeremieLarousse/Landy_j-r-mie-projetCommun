@@ -31,7 +31,6 @@ header{
     height: 100%;
     margin-top: -1%;
     display: flex;
-    
 }
 
 li{
@@ -64,8 +63,6 @@ a{
     background-color: limegreen;
     padding: 7px;  
     text-align: center;
-  
-    
 }
 
 .jazz{
@@ -241,40 +238,39 @@ footer{
     }
 }
 
-
 @media (min-width:481px) and (max-width:767px){
     
     header{
         margin-left: 20%;
-         font-size: 10px;
-         width: 70%;
-         padding: 5px;
-         border-radius: 49% ;
-         margin-top: 1%;
-     }
+        font-size: 10px;
+        width: 70%;
+        padding: 5px;
+        border-radius: 49% ;
+        margin-top: 1%;
+    }
  
-     #navbar{
-         padding: 10px;
-         height: 100%;
-         margin-top: -1%;
-     }
+    #navbar{
+        padding: 10px;
+        height: 100%;
+        margin-top: -1%;
+    }
  
-     li{
-         margin-left: 4%;
-     }
+    li{
+        margin-left: 4%;
+    }
      
-     a{
-         font-size: 10px;
-     }
+    a{
+        font-size: 10px;
+    }
      
-     #introduction{
-         margin-top: 2%;
-         font-size: 15px;
-     }
+    #introduction{
+        margin-top: 2%;
+        font-size: 15px;
+    }
      
-     .slider{
-         margin-bottom: 3%;
-     }
+    .slider{
+        margin-bottom: 3%;
+    }
      
     .jazz{
         display: none;
@@ -282,55 +278,55 @@ footer{
         
     .chat{
         display: none;
-     }
+    }
 
-     #stat1, #stat5, #stat9, #stat13, #stat17{
-         padding: 7px;  
-     }
+    #stat1, #stat5, #stat9, #stat13, #stat17{
+        padding: 7px;  
+    }
      
-     #stat2, #stat6, #stat10, #stat14, #stat18{
-         padding: 6px;
-         margin-top: -4.5%;
-     }
+    #stat2, #stat6, #stat10, #stat14, #stat18{
+        padding: 6px;
+        margin-top: -4.5%;
+    }
      
-     #stat3, #stat7, #stat11, #stat15, #stat19{
-         padding: 6px;
-         margin-top: -4.5%;
-         font-size: 20px;
-     }
+    #stat3, #stat7, #stat11, #stat15, #stat19{
+        padding: 6px;
+        margin-top: -4.5%;
+        font-size: 20px;
+    }
      
      #gauche{
-         width: 100px;
-         margin-left: 1%;
-     }
+        width: 100px;
+        margin-left: 1%;
+    }
      
-     #droite{
-         width: 100px;
-         margin-left: 60%;
-     }
+    #droite{
+        width: 100px;
+        margin-left: 60%;
+    }
      
-     .boutons{
-         padding: 20px;
-     }
+    .boutons{
+        padding: 20px;
+    }
     
-     #gaucheFooter{ 
-         margin-left: 5%;
-     }  
+    #gaucheFooter{ 
+        margin-left: 5%;
+    }  
          
-     #mail{
+    #mail{
         margin-left: 12%;
         font-size: 15px;
         margin-top: 4%;
-     }
+    }
      
      #droiteFooter{    
-         margin-left: 20%;
-     }
+        margin-left: 20%;
+    }
      
      footer{
-         display: flex;
-         margin-top: auto;
-     }
+        display: flex;
+        margin-top: auto;
+    }
     
 }
 
@@ -338,91 +334,90 @@ footer{
 
     header{
         margin-left: 5%;
-         font-size: 10px;
-         width: 60%;
-         padding: 5px;
-         border-radius: 49% ;
-         margin-top: 1%;
-     }
+        font-size: 10px;
+        width: 60%;
+        padding: 5px;
+        border-radius: 49% ;
+        margin-top: 1%;
+    }
  
-     #navbar{
-         padding: 5px;
-         height: 100%;
-         margin-top: -1%;
-     }
+    #navbar{
+        padding: 5px;
+        height: 100%;
+        margin-top: -1%;
+    }
  
-     li{
-         margin-left: 4%;
-     }
+    li{
+        margin-left: 4%;
+    }
      
-     a{
-         font-size: 10px;
-     }
+    a{
+        font-size: 10px;
+    }
      
-     #introduction{
-         margin-top: 2%;
-         font-size: 15px;
-     }
+    #introduction{
+        margin-top: 2%;
+        font-size: 15px;
+    }
      
-     .slider{
-         margin-bottom: 3%;
-     }
+    .slider{
+        margin-bottom: 3%;
+    }
 
-     .jazz{
+    .jazz{
         display: none;
     }
         
     .chat{
         display: none;
-     }
+    }
      
      #stat1, #stat5, #stat9, #stat13, #stat17{
-         padding: 7px;  
-     }
+        padding: 7px;  
+    }
      
-     #stat2, #stat6, #stat10, #stat14, #stat18{
-         padding: 6px;
-         margin-top: -4%;
-     }
+    #stat2, #stat6, #stat10, #stat14, #stat18{
+        padding: 6px;
+        margin-top: -4%;
+    }
      
-     #stat3, #stat7, #stat11, #stat15, #stat19{
-         padding: 6px;
-         margin-top: -4%;
-         font-size: 20px;
-     }
+    #stat3, #stat7, #stat11, #stat15, #stat19{
+        padding: 6px;
+        margin-top: -4%;
+        font-size: 20px;
+    }
      
-     #gauche{
-         width: 100px;
-         margin-left: 1%;
-     }
+    #gauche{
+        width: 100px;
+        margin-left: 1%;
+    }
      
-     #droite{
-         width: 100px;
-         margin-left: 60%;
-     }
+    #droite{
+        width: 100px;
+        margin-left: 60%;
+    }
      
-     .boutons{
-         padding: 20px;
-         display: flex;
-     }
+    .boutons{
+        padding: 20px;
+        display: flex;
+    }
      
-     #gaucheFooter{ 
-         margin-left: 5%;
-     }  
+    #gaucheFooter{ 
+        margin-left: 5%;
+    }  
          
-     #mail{
+    #mail{
         margin-left: 12%;
         font-size: 15px;
         margin-top: 8%;
-     }
+    }
      
      #droiteFooter{    
-         margin-left: 20%;
-     }
+        margin-left: 20%;
+    }
      
      footer{
-         display: flex;
-         margin-top: auto;
-     }
-    
+        display: flex;
+        margin-top: auto;
+    }
 }

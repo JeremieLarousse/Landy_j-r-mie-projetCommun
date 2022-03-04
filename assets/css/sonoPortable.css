@@ -184,7 +184,6 @@ footer{
         display: flex;
     }
     
-    
     .laBoite{
         width: 150px;
     }
@@ -283,43 +282,43 @@ footer{
         width: 100px;
     }
      
-     .NomMatos{
+    .NomMatos{
         font-size: 15px;
         margin-top: -3%;
         padding: 10px;
     }
      
-     .ReferenceMatos{
+    .ReferenceMatos{
         padding: 7px;
         margin-top: -1%;
     }
      
-     .PrixMatos{
+    .PrixMatos{
         padding: 5px;
         margin-top: -5%;
-     }
+    }
      
-     .barreSeparation{
+    .barreSeparation{
         width: 100;
         padding: 40px;  
         margin-bottom: 0.1%;
-     }
+    }
  
-     #gaucheFooter{ 
+    #gaucheFooter{ 
         margin-left: 5%;
      }  
          
-     #mail{
+    #mail{
         margin-left: 3%;
         font-size: 15px;
         margin-top: 3.5%;
      }
      
-     #droiteFooter{    
+    #droiteFooter{    
         margin-left: 20%;
      }
      
-     footer{
+    footer{
         display: flex;
         margin-top: auto;
     }
@@ -403,7 +402,7 @@ footer{
      
     #droiteFooter{    
         margin-left: 20%;
-     }
+    }
      
     footer{
         display: flex;

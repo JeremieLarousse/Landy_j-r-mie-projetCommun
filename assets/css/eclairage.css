@@ -144,6 +144,12 @@ footer{
     color: limegreen; 
 }
 
+.boutonAchat{
+    padding: 10px;
+    background-color: limegreen;
+    border-radius: 40%;
+}
+
 @media screen and (max-width:480px){
 
     header{

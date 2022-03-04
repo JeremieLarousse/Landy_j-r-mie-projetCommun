@@ -33,6 +33,7 @@ for (i = 0 ; i < material.length ; i++){
     lePrix.style.width ="300px";
     lePrix.style.height ="40px";
     lePrix.style.marginTop ="5px";
+    lePrix.style.marginBottom ="90px";
     lePrix.style.background ="white";
     // lePrix.style.marginLeft ="610px";
     lePrix.style.marginLeft ="695px";
