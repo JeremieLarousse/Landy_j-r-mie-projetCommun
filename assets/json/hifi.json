@@ -1,0 +1,35 @@
+material = [{
+    "nom" :"PACK HIFI/HOME-CINEMA",
+    "prix" :"259€99",
+    "image" : "../img/packhifi.webp",
+},
+{
+    "nom" : "AUNA LINIE 300WH",
+    "prix":"174€99",
+    "image" : "../img/auna-linie-300-wh-.webp",
+},
+{
+    "nom" : "AUNA AREAL ELEGANCE",
+    "prix" :"189€99",
+    "image" : "../img/auna-areal.webp",
+},
+{
+    "nom" :"APEMAN VIDEOPROJECTEUR 4k 1080P FULL HD",
+    "prix" :"114€99",
+    "image" : "../img/apeman-videoprojecteur.webp",
+},
+{
+    "nom" :"VIDEO PROJECTEUR",
+    "prix" :"99€99",
+    "image" :"../img/videoprojecteur-projecteur.webp",
+},
+{
+    "nom" :"VIDEOPROJECTEUR 2.4G&5G DUAL-BAND WiFi ",
+    "prix" :"139€99",
+    "image" :"../img/videoprojecteur-2.webp",
+},
+{
+    "nom" :"VIDEOPROJECTEUR WIFI BLUETOOTH, 6000 LUMENS ",
+    "prix" :"89€99",
+    "image" : "../img/videowifi.webp",
+}]
