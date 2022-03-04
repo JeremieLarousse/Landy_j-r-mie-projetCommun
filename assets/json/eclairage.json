@@ -2,43 +2,43 @@ material = [{
         "nom" : "RING LITE10 SET",
         "reference" : "PLUGGER STUDIO",
         "prix" : "29€",
-        "image" : "../img/eclairage/ringLite.jpg"
+        "image" : "../img/eclairage/ringLite.jpg",
     },
     {
         "nom" : "KEY LIGHT AIR",
         "reference" : "ELGATO",
         "prix" : "139€",
-        "image" : "../img/eclairage/keyLightAir.jpg"
+        "image" : "../img/eclairage/keyLightAir.jpg",
     },
     {
         "nom" : "JORISUN Boule Disco Lumières Disco 2 Pack",
         "reference" : "JORISUN",
         "prix" : "28.95€",
-        "image" : "../img/eclairage/jorisun.jpg"
+        "image" : "../img/eclairage/jorisun.jpg",
     },
     {
         "nom" : "BETOPPER Lumières Disco Lumières DJ",
         "reference" : "BETOPPER",
         "prix" : "89.99€",
-        "image" : "../img/eclairage/betopper.jpg"
+        "image" : "../img/eclairage/betopper.jpg",
     },
     {
         "nom" : "Mini Spot à LED Mini Spot Encastré",
         "reference" : "Yuncoo",
         "prix" : "37,99€",
-        "image" : "../img/eclairage/yuncoo.jpg"
+        "image" : "../img/eclairage/yuncoo.jpg",
     },
     {
         "nom" : "Boule Disco de Commande Vocale,7 Couleurs",
         "reference" : "Gobikey",
         "prix" : "15.99€",
-        "image" : "../img/eclairage/gobikey.jpg"
+        "image" : "../img/eclairage/gobikey.jpg",
     },
     {
         "nom" : "UKing Lyre LED 50W Tête Mobile DMX 512",
         "reference" : "UKing",
         "prix" : "129.99€",
-        "image" : "../img/eclairage/uking.jpg"
+        "image" : "../img/eclairage/uking.jpg",
     }
 ]
  

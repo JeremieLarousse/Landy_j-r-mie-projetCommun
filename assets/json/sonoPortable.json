@@ -1,44 +1,44 @@
 material = [{
-    "nom" : "",
-    "reference" : "",
-    "prix" : "",
-    "image" : ""
+    "nom" : "Sony MHC-V02",
+    "reference" : "SONY",
+    "prix" : "230€",
+    "image" : "../img/sonoPortable/sonyMhc.jpg",
 },
 {
-    "nom" : "",
-    "reference" : "",
-    "prix" : "",
-    "image" : ""
+    "nom" : "Enceinte Sono Portable Haut-parleur Moukey",
+    "reference" : "Moukey",
+    "prix" : "195.99€",
+    "image" : "../img/sonoPortable/moukey.jpg",
 },
 {
-    "nom" : "",
-    "reference" : "",
-    "prix" : "",
-    "image" : ""
+    "nom" : "Metronic 477183",
+    "reference" : "Moukey",
+    "prix" : "99.90€",
+    "image" : "../img/sonoPortable/metronic.jpg",
 },
 {
-    "nom" : "",
-    "reference" : "",
-    "prix" : "",
-    "image" : ""
+    "nom" : "Enceinte Bluetooth, W-KING 80W Punchy Bass",
+    "reference" : "W-KING",
+    "prix" : "139.99€",
+    "image" : "../img/sonoPortable/wking.jpg",
 },
 {
-    "nom" : "",
-    "reference" : "",
-    "prix" : "",
-    "image" : ""
+    "nom" : "JBL EON610 Enceinte Portable Amplifiée Noir",
+    "reference" : "JBL",
+    "prix" : "502.80€",
+    "image" : "../img/sonoPortable/jblEon.jpg",
 },
 {
-    "nom" : "",
-    "reference" : "",
-    "prix" : "",
-    "image" : ""
+    "nom" : "SPLBOX350-PORT - Ibiza Sound ",
+    "reference" : "Ibiza Sound ",
+    "prix" : "179.90€",
+    "image" : "../img/sonoPortable/ibiza.jpg",
 },
 {
-    "nom" : "",
-    "reference" : "",
-    "prix" : "",
-    "image" : ""
+    "nom" : "LEICKE Enceinte Sono",
+    "reference" : "LEICKE",
+    "prix" : "129.99€",
+    "image" : "../img/sonoPortable/leicke.jpg",
 }
 ]
 
@@ -49,46 +49,9 @@ material = [{
 
 
 
-Sony MHC-V02
 
-Sony
 
-230€
-///////////////////////////////////////////////////////
-Enceinte Sono Portable Haut-parleur Moukey
 
-Moukey
 
-195.99€
-//////////////////////////////////////////////////////////////////////////
-Metronic 477183
 
-Moukey
-
-99.90€
-////////////////////////////////////////////////////////
-Enceinte Bluetooth, W-KING 80W Punchy Bass
-
-W-KING
-
-139.99€
-///////////////////////////////////////////////////////
-
-JBL EON610 Enceinte Portable Amplifiée Noir
-
-JBL
-
-502.80€
-///////////////////////////////////////////
-SPLBOX350-PORT - Ibiza Sound 
-
-Ibiza Sound 
-
-179.90€
-///////////////////////////////////////////
-LEICKE Enceinte Sono
-
-LEICKE
-
-129.99€
 

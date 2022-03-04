@@ -7,25 +7,38 @@
     <title>Document</title>
     <!-- link -->
     <link rel="stylesheet" href="./assets/css/index.css">
-    <link rel="stylesheet" href="http://127.0.0.1:5500/.assets/css/index.css">
+    
 </head>
 <body>
 
-    <header>Jeune Sonorisation, expert en son</header>
+    <div id="hautDePage">
+        
+    <header><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-music-note-beamed" viewBox="0 0 16 16">
+        <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13c0-1.104 1.12-2 2.5-2s2.5.896 2.5 2zm9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2z"/>
+        <path fill-rule="evenodd" d="M14 11V2h1v9h-1zM6 3v10H5V3h1z"/>
+        <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4V2.905z"/>
+        </svg> Jeune Sonorisation, expert en son <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-music-note-beamed" viewBox="0 0 16 16">
+        <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13c0-1.104 1.12-2 2.5-2s2.5.896 2.5 2zm9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2z"/>
+        <path fill-rule="evenodd" d="M14 11V2h1v9h-1zM6 3v10H5V3h1z"/>
+        <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4V2.905z"/>
+        </svg>
+    </header>
+    
+    </div>
 
     <div id="divGlobale">
         <nav>
             <ul  id="navbar">
-                <li><a class="btn" href="">Acceuil</a></li>
-                <li><a class="btn" href="">Eclairage</a></li>
-                <li><a class="btn" href="">HIFI et vidéo</a></li>
-                <li><a class="btn" href="">SONO et PORTABLE</a></li>
-                <li><a class="btn" href="">CONTACT</a></li>
+                <li><a class="btn" href="./index.html">Acceuil</a></li>
+                <li><a class="btn" href="./assets/pages/eclairage.html">Eclairage</a></li>
+                <li><a class="btn" href="./assets/pages/hifiVideo.html">HIFI et vidéo</a></li>
+                <li><a class="btn" href="./assets/pages/sonoPortable.html">SONO et PORTABLE</a></li>
+                <li><a class="btn" href="./assets/pages/contact.html">CONTACT</a></li>
             </ul>
         </nav>
         
         <div>
-            <p id="introduction">Nous proposons du matériel de qualité</p>
+            <p id="introduction">Nous vous proposons du matériel de qualité!</p>
         </div>
 
         <div class="slider">
@@ -34,7 +47,9 @@
                 <p id="stat2"></p>
                 <p id="stat3"></p>
                 <p id="stat4"></p>
-                <img src="" width="" alt="">
+                <img src="./assets/img/basique/jazz.jpg" class="jazz" alt="">
+                <img src="assets\img\eclairage\ringLite.jpg" width="300px" alt="">
+                <img src="./assets/img/basique/trumpetChat.jpg" class="chat"  alt="">
             </div>
         </div>
 
@@ -44,7 +59,9 @@
                 <p id="stat6"></p>
                 <p id="stat7"></p>
                 <p id="stat8"></p>
-                <img src="" width=""  alt="">
+                <img src="./assets/img/basique/jazz.jpg" class="jazz" alt="">
+                <img src="assets/img/eclairage/gobikey.jpg" width="300px"  alt="">
+                <img src="./assets/img/basique/trumpetChat.jpg" class="chat"  alt="">
             </div>
         </div>
 
@@ -54,7 +71,9 @@
                 <p id="stat10"></p>
                 <p id="stat11"></p>
                 <p id="stat12"></p>
-                <img src="." width=""  alt="">
+                <img src="./assets/img/basique/jazz.jpg" class="jazz" alt="">
+                <img src="assets/img/sonoPortable/sonyMhc.jpg" width="300px"  alt="">
+                <img src="./assets/img/basique/trumpetChat.jpg" class="chat"  alt="">
             </div>
         </div>
 
@@ -64,7 +83,9 @@
                 <p id="stat14"></p>
                 <p id="stat15"></p>
                 <p id="stat16"></p>
-                <img src="" width=""  alt="">
+                <img src="./assets/img/basique/jazz.jpg" class="jazz" alt="">
+                <img src="assets/img/sonoPortable/ibiza.jpg" width="300px" height="300" alt="">
+                <img src="./assets/img/basique/trumpetChat.jpg" class="chat"  alt="">
             </div>
         </div>
 
@@ -74,24 +95,29 @@
                 <p id="stat18"></p>
                 <p id="stat19"></p>
                 <p id="stat20"></p>
-                <img src="" width=""  alt="">
+                <img src="./assets/img/basique/jazz.jpg" class="jazz" alt="">
+                <img src="assets/img/sonoPortable/leicke.jpg" width="300px"  alt="">
+                <img src="./assets/img/basique/trumpetChat.jpg" class="chat"  alt="">
             </div>
-        </div>
-
-        <div class="boutons">
-            <button id="gauche" onclick="fleche(-1)"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left" viewBox="0 0 16 16">
-                <path d="M10 12.796V3.204L4.519 8 10 12.796zm-.659.753-5.48-4.796a1 1 0 0 1 0-1.506l5.48-4.796A1 1 0 0 1 11 3.204v9.592a1 1 0 0 1-1.659.753z"/>
-            </svg>
-            <button id="droite" onclick="fleche(1)"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
-                <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
-            </svg></button>
         </div>
     </div>
 
-    <script src="./assets/json/index.json"></script>
-    <script src="http://127.0.0.1:5500/./assets/json/index.json"></script>
+    <div class="boutons">
+        <button id="gauche" onclick="fleche(-1)"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left" viewBox="0 0 16 16">
+            <path d="M10 12.796V3.204L4.519 8 10 12.796zm-.659.753-5.48-4.796a1 1 0 0 1 0-1.506l5.48-4.796A1 1 0 0 1 11 3.204v9.592a1 1 0 0 1-1.659.753z"/>
+            </svg>
+        <button id="droite" onclick="fleche(1)"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+            <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+            </svg></button>
+    </div>
+    
     <script src="./assets/js/index.js"></script>
-    <script src="http://127.0.0.1:5500/./assets/js/index.js"></script>
+
+    <footer>
+        <p id="gaucheFooter">Landy & Jérémie Cie</p>
+        <a id="mail" href="mailto:adresse@serveur.com">Contact</a>
+        <p id="droiteFooter">Via 2022</p>
+    </footer>
 
 </body>
 </html>

@@ -1,56 +1,428 @@
 body{
-    margin: 0;
-    padding: 0;
-    background-color: aquamarine;
+    margin: auto;
+    padding: auto;
+    background-color: lightgray;
 }
 
 header{
     text-align: center;
+    margin-left: 25%;
     font-weight: bold;
     font-size: 50px;
-    color: orangered;
+    color: limegreen;
+    border: black 2px solid;
+    background-color: black;
+    padding: 16px;
+    border-radius: 49% ;
+    width: 850px;
+    margin-top: 1%;
 }
 
-#divGlobale{
+#hautDePage{
+    background-color: limegreen;
+    padding: 20px;
+    margin-bottom: 1%;
+}
+
+#navbar{
+    background-color: black;
+    border: 2px solid black;
+    padding: 30px;
+    height: 100%;
+    margin-top: -1%;
+    display: flex;
     
-}
-
-.navbar{
-    
-}
-
-ul{
-
 }
 
 li{
     list-style-type: none;
+    margin-left: 11%;
 }
 
 a{
     text-decoration: none;
+    color: limegreen;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 #introduction{
     text-align: center;
+    margin-top: 2%;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .slider{
     text-align: center;
+    background-color: sienna;
+    margin-bottom: 3%;
+}
+
+#stat1, #stat5, #stat9, #stat13, #stat17{
+    color:white;
+    background-color: limegreen;
+    padding: 7px;  
+    text-align: center;
+  
+    
+}
+
+.jazz{
+    width:200px; 
+    height: 300px;
+    margin-right: 20%;
+    background-color: white;
+}
+
+.chat{
+    width:200px; 
+    height: 300px;
+    margin-left: 20%;
+    background-color: white;
+}
+
+#stat2, #stat6, #stat10, #stat14, #stat18{
+    font-weight: bold;
+    background-color: aquamarine;
+    padding: 7px;
+    margin-top: -1.5%;
+    font-size: 25px;
+}
+
+#stat3, #stat7, #stat11, #stat15, #stat19{
+   font-weight: bold;
+    background-color: aqua;
+    padding: 7px;
+    margin-top: -1.5%;
+    font-size: 25px;
+}
+
+img{
+    border: solid 4px black;
+    border-radius: 20%;
 }
 
 #gauche{
     width: 100px;
     margin-left: 31%;
-    background-color: darkgreen;
+    background-color: limegreen;
 }
 
 #droite{
     width: 100px;
     margin-left: 25%;
-    background-color: darkgreen;
+    background-color: limegreen;
 }
 
 .boutons{
-    margin-top: 5%;
+    margin-top: -3%;
+    background-color: sienna;
+    padding: 40px;
+}
+
+footer{
+    bottom: 0;
+    display: flex;
+    background-color: black;
+    margin-top: 50px;
+    left: 0;
+    width: 100%;
+}
+
+#gaucheFooter{
+    color: limegreen;
+    margin-left: 5%;
+}  
+    
+#mail{
+   margin-left: 36%;
+   color: limegreen;
+   margin-top: 0.5%;
+}
+
+#droiteFooter{   
+    color: limegreen;
+    margin-left: 40%;
+    text-align: right; 
+}
+
+
+@media screen and (max-width:480px){
+
+    header{
+       margin-left: 20%;
+        font-size: 10px;
+        width: 70%;
+        padding: 5px;
+        border-radius: 49% ;
+        margin-top: 1%;
+    }
+
+    #navbar{
+        padding: 10px;
+        height: 100%;
+        margin-top: -1%;
+    }
+
+    li{
+        margin-left: 4%;
+    }
+    
+    a{
+        font-size: 10px;
+    }
+    
+    #introduction{
+        margin-top: 2%;
+        font-size: 15px;
+    }
+    
+    .slider{
+        margin-bottom: 3%;
+    }
+
+    .jazz{
+        display: none;
+    }
+
+    .chat{
+        display: none;
+    }
+    
+    #stat1, #stat5, #stat9, #stat13, #stat17{
+        padding: 7px;  
+    }
+    
+    #stat2, #stat6, #stat10, #stat14, #stat18{
+        padding: 6px;
+        margin-top: -7%;
+    }
+    
+    #stat3, #stat7, #stat11, #stat15, #stat19{
+        padding: 6px;
+        margin-top: -8%;
+        font-size: 20px;
+    }
+    
+    #gauche{
+        width: 100px;
+        margin-left: 1%;
+    }
+    
+    #droite{
+        width: 100px;
+        margin-left: 60%;
+    }
+    
+    .boutons{
+        padding: 20px;
+        display: flex;
+    }
+    
+
+    #gaucheFooter{ 
+        margin-left: 5%;
+    }  
+        
+    #mail{
+       margin-left: 12%;
+       font-size: 15px;
+       margin-top: 8%;
+    }
+    
+    #droiteFooter{    
+        margin-left: 20%;
+    }
+    
+    footer{
+        display: flex;
+        margin-top: auto;
+    }
+}
+
+
+@media (min-width:481px) and (max-width:767px){
+    
+    header{
+        margin-left: 20%;
+         font-size: 10px;
+         width: 70%;
+         padding: 5px;
+         border-radius: 49% ;
+         margin-top: 1%;
+     }
+ 
+     #navbar{
+         padding: 10px;
+         height: 100%;
+         margin-top: -1%;
+     }
+ 
+     li{
+         margin-left: 4%;
+     }
+     
+     a{
+         font-size: 10px;
+     }
+     
+     #introduction{
+         margin-top: 2%;
+         font-size: 15px;
+     }
+     
+     .slider{
+         margin-bottom: 3%;
+     }
+     
+    .jazz{
+        display: none;
+    }
+        
+    .chat{
+        display: none;
+     }
+
+     #stat1, #stat5, #stat9, #stat13, #stat17{
+         padding: 7px;  
+     }
+     
+     #stat2, #stat6, #stat10, #stat14, #stat18{
+         padding: 6px;
+         margin-top: -4.5%;
+     }
+     
+     #stat3, #stat7, #stat11, #stat15, #stat19{
+         padding: 6px;
+         margin-top: -4.5%;
+         font-size: 20px;
+     }
+     
+     #gauche{
+         width: 100px;
+         margin-left: 1%;
+     }
+     
+     #droite{
+         width: 100px;
+         margin-left: 60%;
+     }
+     
+     .boutons{
+         padding: 20px;
+     }
+    
+     #gaucheFooter{ 
+         margin-left: 5%;
+     }  
+         
+     #mail{
+        margin-left: 12%;
+        font-size: 15px;
+        margin-top: 4%;
+     }
+     
+     #droiteFooter{    
+         margin-left: 20%;
+     }
+     
+     footer{
+         display: flex;
+         margin-top: auto;
+     }
+    
+}
+
+@media (min-width:768px) and (max-width:1024px){
+
+    header{
+        margin-left: 5%;
+         font-size: 10px;
+         width: 60%;
+         padding: 5px;
+         border-radius: 49% ;
+         margin-top: 1%;
+     }
+ 
+     #navbar{
+         padding: 5px;
+         height: 100%;
+         margin-top: -1%;
+     }
+ 
+     li{
+         margin-left: 4%;
+     }
+     
+     a{
+         font-size: 10px;
+     }
+     
+     #introduction{
+         margin-top: 2%;
+         font-size: 15px;
+     }
+     
+     .slider{
+         margin-bottom: 3%;
+     }
+
+     .jazz{
+        display: none;
+    }
+        
+    .chat{
+        display: none;
+     }
+     
+     #stat1, #stat5, #stat9, #stat13, #stat17{
+         padding: 7px;  
+     }
+     
+     #stat2, #stat6, #stat10, #stat14, #stat18{
+         padding: 6px;
+         margin-top: -4%;
+     }
+     
+     #stat3, #stat7, #stat11, #stat15, #stat19{
+         padding: 6px;
+         margin-top: -4%;
+         font-size: 20px;
+     }
+     
+     #gauche{
+         width: 100px;
+         margin-left: 1%;
+     }
+     
+     #droite{
+         width: 100px;
+         margin-left: 60%;
+     }
+     
+     .boutons{
+         padding: 20px;
+         display: flex;
+     }
+     
+     #gaucheFooter{ 
+         margin-left: 5%;
+     }  
+         
+     #mail{
+        margin-left: 12%;
+        font-size: 15px;
+        margin-top: 8%;
+     }
+     
+     #droiteFooter{    
+         margin-left: 20%;
+     }
+     
+     footer{
+         display: flex;
+         margin-top: auto;
+     }
+    
 }
