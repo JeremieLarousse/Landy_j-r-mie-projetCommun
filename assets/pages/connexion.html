@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/connexion.css">
+</head>
+<body>
+    <div class="title"> <!-- <title> -->
+        <p>connexion</p>
+    </div>  
+    <div class="global">
+        <nav class="navbar"><!-- navbar vertical -->
+            <ul>
+                <li><a href="accueil.asp">ACCUEIL</a></li>
+                <li><a href="eclairage.asp">ECLAIRAGE</a></li>
+                <li><a href="hifi.asp">HIFI & VIDEO</a></li>
+                <li><a href="sono.asp">SONO-PORTABLE</a></li>
+                <li><a href="contact.asp">CONTACT</a></li> 
+            </ul> 
+            <div class="sono">
+                <img class="image"src="./assets/img/slidelocation.jpg" width="10px" alt="">
+            </div> 
+        </nav>
+
+        <div class="bloc">
+            <input id="idents" type="text" placeholder="Identifiant"></input>
+            <input id="mail" type="mail" placeholder="Adresse mail"></input>
+            <input id="password" type="text" placeholder="Mot de passe"></input>
+            <button id="enter" onclick="enter()">Entrer</button>
+        </div>
+    </div>
+
+    <footer>
+        <p id="gauche">Landy & Jérémie Cie</p>
+        <a id="mail" href="mailto:adresse@serveur.com">Contact</a>
+        <p id="droite">Via 2022</p>
+    </footer>
+    <script src="/assets/js/connexion.js" defer ></script>
+</body>
+</html>
