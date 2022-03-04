@@ -7,7 +7,8 @@ for (i = 0 ; i < material.length ; i++){
     leNom.style.color ="limegreen";
     leNom.style.background ="black"
     leNom.style.width ="300px";
-    leNom.style.margin =" 10px 400px 0 610px";
+    // leNom.style.margin =" 10px 400px 0 610px";
+    leNom.style.margin =" 10px 300px 0 695px";
     leNom.style.height ="40px";
     leNom.style.borderBlock ="20px solid black";
     leNom.textContent = material[i].nom;
@@ -33,7 +34,8 @@ for (i = 0 ; i < material.length ; i++){
     lePrix.style.height ="40px";
     lePrix.style.marginTop ="5px";
     lePrix.style.background ="white";
-    lePrix.style.marginLeft ="610px";
+    // lePrix.style.marginLeft ="610px";
+    lePrix.style.marginLeft ="695px";
     lePrix.textContent = material[i].prix;
     boite.appendChild(lePrix);
 
